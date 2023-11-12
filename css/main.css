@@ -1343,3 +1343,14 @@ body {
     width: 29%;
   }
 }
+
+@media(max-width:430px){
+  @keyframes typing {
+    from {
+      width: 0; 
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
