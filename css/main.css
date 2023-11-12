@@ -1328,7 +1328,7 @@ body {
   position: absolute;
   top: 20px;
   overflow: hidden; 
-  white-space: nowrap; 
+  white-space: wrap; 
 
   
   animation: typing 3s forwards;
@@ -1352,5 +1352,8 @@ body {
     to {
       width: 100%;
     }
+  }
+  .Text {
+    top: 40px;
   }
 }
