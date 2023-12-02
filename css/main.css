@@ -20,6 +20,50 @@ body {
   perspective: 1000px;
 }
 
+.cat{
+  position: absolute;
+  z-index: 999999;
+  left: 20px;
+  top: 50px;
+  height: 240px;
+  width: 240px;
+  border-radius: 100%;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-image: url('C:/Users/DELL/Desktop/Wish/Extras/css/img/cat.jpg');
+ background-size: cover; 
+  background-position: center;
+   */
+  
+}
+.text-container{
+  position: absolute;
+  top:50%;
+  right : 10%;
+  padding: 20px;
+  border-radius: 30px;
+  z-index: 999999;
+  color: black;
+  background:white;
+}
+.cat2{
+  position: absolute;
+  z-index: 999999;
+  right: 20px;
+  top: 50px;
+  height: 240px;
+  width: 240px;
+  border-radius: 100%;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-image: url('C:/Users/DELL/Desktop/Wish/Extras/css/img/cat.jpg');
+ background-size: cover; 
+  background-position: center;
+   */
+  
+}
 .night {
   position: fixed;
   left: 50%;
