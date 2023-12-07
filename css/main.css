@@ -23,45 +23,102 @@ body {
 .cat{
   position: absolute;
   z-index: 999999;
-  left: 20px;
-  top: 50px;
-  height: 240px;
-  width: 240px;
-  border-radius: 100%;
+  left: 10px;
+  top: 20px;
+  height: 200px;
+  width: auto;
+  border-radius: 20%;
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  /* background-image: url('C:/Users/DELL/Desktop/Wish/Extras/css/img/cat.jpg');
- background-size: cover; 
+  background-size: cover; 
   background-position: center;
-   */
+}
+.cat3{
+  position: absolute;
+  z-index: 999999;
+  left: 10px;
+  top: 49%;
+  height: 240px;
+  width: 240px;
+  border-radius: 20%;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+.text-container {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  padding: 20px;
+  border-radius: 30px 30px 0 30px;
+  z-index: 999999;
+  color: white;
+  transition: background-color 0.5s ease; 
+  background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+}
+.text-container2 {
+  position: absolute;
+  top: 62%;
+  right: 10px;
+  padding: 20px;
+  border-radius: 30px 30px 0 30px;
+  z-index: 999999;
+  color: white;
+  transition: background-color 0.5s ease; 
+  background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+}
+.text-container3 {
+  position: absolute;
+  bottom: 2%;
+  right: 10px;
+  padding: 20px;
+  border-radius: 30px 30px 0 30px;
+  z-index: 999999;
+  color: gray;
+  transition: background-color 0.5s ease; 
+  background: gray;
+}
+
+
+.text-container3:hover {
+  color: white;
+  transition: background-color 0.5s ease; 
+  background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+}
+
+.text-container:hover {
+   /* Initially hide text */
+  transition: opacity 0.9s ease;
+  
   
 }
-.text-container{
-  position: absolute;
-  top:50%;
-  right : 10%;
-  padding: 20px;
-  border-radius: 30px;
-  z-index: 999999;
-  color: black;
-  background:white;
+.text-container2:hover {
+  /* Initially hide text */
+ transition: opacity 0.9s ease;
+ 
 }
+
+.text-container:hover .text {
+  opacity: 1; /* Show text on hover */
+  color: black; /* Text color on hover */
+  font-weight: 400;
+}
+
 .cat2{
   position: absolute;
   z-index: 999999;
-  right: 20px;
-  top: 50px;
+  right: 10px;
+  top: 10px;
   height: 240px;
   width: 240px;
-  border-radius: 100%;
+  border-radius: 20%;
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  /* background-image: url('C:/Users/DELL/Desktop/Wish/Extras/css/img/cat.jpg');
- background-size: cover; 
-  background-position: center;
-   */
+
   
 }
 .night {
@@ -1375,7 +1432,7 @@ body {
   white-space: nowrap; 
 
   
-  animation: typing 3s forwards;
+  animation: typing 8s forwards;
 
   
 }
